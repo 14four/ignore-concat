@@ -1,0 +1,19 @@
+{
+  "name": "ignore-concat",
+  "version": "1.0.0",
+  "description": "Create a concatenated ignore file.",
+  "main": "index.js",
+  "repository": "git@github.com:14four/ignore-concat.git",
+  "author": "Josh Hagel <josh@14four.com>",
+  "license": "MIT",
+  "bin": {
+    "ignore-concat": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.11.0",
+    "glob": "^7.1.2",
+    "line-by-line": "^0.1.5",
+    "readline": "^1.3.0"
+  }
+}
